@@ -1,0 +1,34 @@
+{
+  "name": "@unwise-door/unwise-controller",
+  "version": "0.0.2",
+  "description": "Control Schneider Electric/Merten/Ritto Wiser™ Door products, using the same SIP-based protocol the official app uses as well.",
+  "scripts": {
+    "test": "node  --experimental-modules --es-module-specifier-resolution=node  test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/UnwiseDoor/unwise-controller.git"
+  },
+  "keywords": [
+    "Schneider Electric",
+    "Merten",
+    "Ritto",
+    "Wiser Door"
+  ],
+  "author": "Nils Schnabel",
+  "license": "EPL-2.0",
+  "bugs": {
+    "url": "https://github.com/unwise-door/unwise-controller/issues"
+  },
+  "homepage": "https://github.com/unwise-door/unwise-controller#readme",
+  "dependencies": {
+    "@unwise-door/sipjs-udp-transport": "^0.0.2",
+    "sip.js": "^0.20.0"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
