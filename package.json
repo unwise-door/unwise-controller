@@ -1,6 +1,6 @@
 {
   "name": "@unwise-door/unwise-controller",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Control Schneider Electric/Merten/Ritto Wiser™ Door products, using the same SIP-based protocol the official app uses as well.",
   "scripts": {
     "test": "node  --experimental-modules --es-module-specifier-resolution=node  test.js"

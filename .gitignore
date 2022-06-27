@@ -1,3 +1,4 @@
 unwise-config.json
 node_modules/
 package-lock.json
+*\.private

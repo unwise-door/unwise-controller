@@ -51,7 +51,7 @@ class WiserDoorController extends EventEmitter {
         },
         onInvite: async (invite) => {
           this.emit('door-bell', { invite });
-          invite.cancel();
+          invite.reject();
         },
       },
     });
